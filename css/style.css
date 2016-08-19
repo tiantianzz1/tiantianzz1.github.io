@@ -1,0 +1,210 @@
+body {
+  background: #f2f2f2;
+}
+body .head {
+  height: 50px;
+  width: 100%;
+}
+body .head .left {
+  max-width: 280px;
+  min-width: 140px;
+  width: 21%;
+}
+body .head .left a {
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+body .head .left a img {
+  width: 100%;
+}
+body .head .right a {
+  font: 12px/50px "宋体";
+  color: #333333;
+  position: relative;
+}
+body .head .right a i {
+  display: block;
+  width: 11px;
+  height: 14px;
+  background: url(../img/icons.__1442221540__.png) no-repeat -20px -20px;
+  position: absolute;
+  left: -14px;
+  top: -2px;
+}
+body .content {
+  max-width: 640px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .content .banner .ban-bg {
+  position: relative;
+}
+body .content .banner .ban-bg img {
+  width: 100%;
+}
+body .content .banner .ban-bg .ipt {
+  padding: 0 10px;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+body .content .banner .ban-bg .ipt input {
+  width: 100%;
+  height: 36px;
+  padding-left: 46px;
+  box-sizing: border-box;
+}
+body .content .banner .ban-bg .ipt i {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(../img/icons.__1442221540__.png) no-repeat -740px -40px;
+  position: absolute;
+  left: 25px;
+  top: 10px;
+}
+body .content .banner .ban-bg .doc {
+  padding: 3px 6px;
+  background: #000;
+  border-radius: 3px;
+  opacity: 0.5;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+body .content .banner .ban-bg .doc li {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 2px;
+}
+body .content .banner .ban-bg .doc li.last {
+  margin: 0px;
+}
+body .content .banner .ban-bg .doc li:hover {
+  background: #F30;
+}
+body .content .banner .ban-bg .doc li.active {
+  background: #F30;
+}
+body .content .banner .hot {
+  background: #fff;
+}
+body .content .banner .hot ul li {
+  padding: 10px 0px;
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+body .content .banner .hot ul li.last1 {
+  border: none;
+}
+body .content .banner .hot ul li a {
+  display: block;
+}
+body .content .banner .hot ul li a img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+body .content .banner .car {
+  margin-top: 11px;
+}
+body .content .banner .car li {
+  width: 50%;
+  box-sizing: border-box;
+}
+body .content .banner .car li:first-child {
+  border-right: 2px solid #f2f2f2;
+}
+body .content .banner .car li img {
+  width: 100%;
+}
+body .content .banner .car li a {
+  display: block;
+  box-sizing: border-box;
+}
+body .content .banner .car li a.a1 {
+  border-bottom: 2px solid #f2f2f2;
+}
+body .content .banner .shuju {
+  margin-top: 11px;
+  background: #fff;
+}
+body .content .banner .shuju .list {
+  overflow: hidden;
+}
+body .content .banner .shuju .list dt {
+  font: 14px/21px "宋体";
+  height: 21px;
+  padding-left: 15px;
+  border-left: 5px solid #f37e0b;
+  margin-bottom: 10px;
+  margin-top: 11px;
+}
+body .content .banner .shuju .list dt.d2 {
+  border-color: green;
+}
+body .content .banner .shuju .list dt.d3 {
+  border-color: red;
+}
+body .content .banner .shuju .list dd a {
+  width: 25%;
+  padding: 16px 0px;
+  font: 12px "宋体";
+  text-align: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin-top: -1px;
+  border-left: none;
+}
+body .content .banner .shuju .list dd a.a4 {
+  border-right: 1px solid #fff;
+}
+body .content .banner .shuju .list dd a.a8 {
+  border-right: 1px solid #fff;
+}
+body .content .banner .shuju .list dd a img {
+  width: 100%;
+}
+body .content .banner .bottom {
+  margin-top: 10px;
+}
+body .content .banner .bottom a {
+  width: 50%;
+  box-sizing: border-box;
+}
+body .content .banner .bottom a img {
+  width: 100%;
+}
+body .content .banner .bottom a:first-child {
+  border-right: 1px solid #f2f2f2;
+}
+body .content .banner .bottom a:last-child {
+  border-left: 1px solid #f2f2f2;
+}
+body .content .banner .last a {
+  width: 100%;
+}
+body .content .banner .last a img {
+  width: 100%;
+}
+body .footer {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+}
+body .footer .fk {
+  text-align: center;
+}
+body .footer .fk a {
+  font: 14px/49px "宋体";
+  color: #000;
+  margin: 10px;
+}
